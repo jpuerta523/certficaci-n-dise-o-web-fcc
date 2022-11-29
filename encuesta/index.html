@@ -1,0 +1,102 @@
+<!--Formulario profix de satisfacion del cliente
+    HTML y CSS puro sin frameworks o librerias
+    hace parte de evaluacion de FreeCodeCamp modulo de desarrollo web
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta Satisfación Profix</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--contenedor general-->
+    <div class="contenedor">
+
+        <!--seccion encabezado-->
+        <section>
+            <h1 id="title">Encuesta Satisfación del cliente Profix</h1>
+            <p id="description">Por favor ayudenos a mejorar nuestro servicio respondiendo esta breve encuesta.</p>
+            
+        </section>
+
+        <!--seccion formulario-->
+        <form id="survey-form">
+
+            <!-- campo datos personales: inputs requeridos-->
+            <fieldset>
+                <label id="name-label">Nombre:<input type="text"  placeholder="ingrese su nombre" id="name" name="texto" class="info info-text" required></label>
+                
+                <label id="email-label">Correo:<input type="email"  placeholder="ingrese su correo" id="email" name="email" class="info info-text" required></label>
+
+                <label id="number-label">Edad:<input type="number"  placeholder="ingrese su edad" id="number" name="edad" min="15" max="99" class="info info-text" required></label>
+            </fieldset>
+
+            <!--calificaciones: selects requeridos -->
+            <fieldset>
+                <p>Por favor cuentenos su opinión con respecto a nuestro servicio con una calificacion de 1 a 5 donde 5 es muy satisfecho y 1 es nada satisfecho.</p>
+
+                <label> Calidad de las reparaciones realizadas:
+                    <select name="lista" id="dropdown"  class="info">
+                        <option value="">(selecione su calificación)</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+
+                    <label>Instalaciones de nuestro taller:
+                        <select name="lista" id="dropdown1" class="info">
+                            <option value="">(selecione su calificación)</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+
+                    <label>Atención al cliente y experiencia de servicio en nuestro taller:
+                        <select name="lista" id="dropdown2" class="info">
+                            <option value="">(selecione su calificación)</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+            </fieldset>
+
+            <!--publicidad: radio buttons-->
+            <fieldset>
+                <p>Cuentenos por favor como se entero de nuestros servicios de taller:</p>
+                <label><input type="radio" name="radio1" class="inline" value="voz"/> Voz a voz</label>
+                <label><input type="radio" name="radio1" class="inline" value="web"/> Página web</label>
+                <label><input type="radio" name="radio1" class="inline" value="redes"/> Redes sociales</label>
+                <label><input type="radio" name="radio1" class="inline" value="voz"/> Referido talleres aliados</label>
+            </fieldset>
+
+            <!--aceptar terminos: checkbuttons-->
+            <fieldset>
+                <label><input type="checkbox" name="encuesta" required class="inline" value="accept"/> Acepto los <a href="https://www.freecodecamp.org/news/terms-of-service/">terminos y condiciones</a></label>
+                <label><input type="checkbox" name="publicidad" required class="inline" value="accept"/> Acepto el envio de publicidad de Profix al correo suministrado</a></label>
+            </fieldset>
+
+            <!--comentarios: text area-->
+            <fieldset>
+                <p>Escribanos aquí si tiene alguna duda, comentario o sugerencia:</p>
+                <label>texto: <textarea rows="3"  placeholder="Dudas, comentarios o sugerencias..." name="texto" class="info"></textarea></label>
+            </fieldset>
+
+            <div class="contenedorBoton">
+                <input type="submit" id="submit" value="Enviar"/>
+            </div>
+                
+        </form>
+    </div>
+</body>
+</html>

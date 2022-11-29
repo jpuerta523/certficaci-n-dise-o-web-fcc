@@ -1,0 +1,57 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #24292f;
+}
+
+h1,
+#description
+{
+    color: #fff;
+    text-align: center;
+}
+
+
+form{
+    margin: 0 auto; 
+    max-width: 650px; 
+    min-width: 300px; width: 60vw; 
+    padding: 2em
+}
+
+fieldset{
+    border-radius: 5px;
+    background-color: #d5d8da;
+}
+
+label{
+    display: block; 
+    margin: 0.5rem 0;
+    }
+
+    .info{
+        width: 100%;
+        height: 25px;
+    }
+
+.inline{
+    display: inline;
+}
+
+#submit{
+    width: 150px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 15px;
+    color: #24292f;  
+    background-color: #d5d8da;
+    margin-top: 10px;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#submit:hover{
+    background-color: #1f8c11;
+}

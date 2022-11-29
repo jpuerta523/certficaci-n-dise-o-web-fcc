@@ -29,13 +29,13 @@ label{
     margin: 0.5rem 0;
     }
 
-    .info{
-        width: 99%;
-        height: 25px;
-        box-shadow: 4px 3px 4px #666;
-        border-radius: 5px;
-        border: 1px solid #24292f;
-    }
+.info{
+    width: 99%;
+    height: 25px;
+    box-shadow: 4px 3px 4px #666;
+    border-radius: 5px;
+    border: 1px solid #24292f;
+}
 
 .inline{
     display: inline;
@@ -53,9 +53,12 @@ label{
     display: block;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 #submit:hover{
     background-color: #1f8c11;
+}
+
+.text1{
+    height: 100px;
 }

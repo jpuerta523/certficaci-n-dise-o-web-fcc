@@ -1,6 +1,13 @@
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #24292f;
+    font-weight: 600;
+}
+
+.encabezado{
+    max-width: 500px;
+    min-width: 250px;
+    margin: 0 auto;
 }
 
 h1,
@@ -14,7 +21,8 @@ h1,
 form{
     margin: 0 auto; 
     max-width: 650px; 
-    min-width: 300px; width: 60vw; 
+    min-width: 300px; 
+   /* width: 60vw; */
     padding: 2em
 }
 
@@ -59,6 +67,28 @@ label{
     background-color: #1f8c11;
 }
 
-.text1{
+.areaTexto{
     height: 100px;
+}
+
+footer{
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    padding-top:1rem
+}
+
+footer p{
+    font-weight: 300;
+    font-size: 15px;
+    margin: 0.2rem;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer a:visited{
+    color: #ddd;
 }

@@ -1,5 +1,5 @@
 <!--
-
+pagina homenaje: BMW e36 FanPage
 HTML y CSS puro sin frameworks o librerias
 hace parte de evaluacion de FreeCodeCamp modulo de desarrollo web
 -->
@@ -14,16 +14,88 @@ hace parte de evaluacion de FreeCodeCamp modulo de desarrollo web
 </head>
 <body>
     <main id="main">
-        <h1 id="title">BMW e36 FanPage Colombia</h1>
+
+        <!--encabezado-->
+        <header>
+            <h1 id="title">BMW e36 FanPage Colombia</h1>
+            <img src="https://marque-voiture.com/wp-content/uploads/2015/09/logo-BMW-e36.jpg" class="logo">
+        </header>
+        <nav>
+            <a href="#descripcion">Descripción</a>
+            <a href="#historia">Historia</a>
+            <a href="#imagenes">Galería</a>
+        </nav>
+        
 
          <!--imagen principal-->
 
         <div id="img-div">
-            <img id="image" src="https://github.com/jpuerta523/certficacion-diseno-web-fcc/blob/master/Pagina%20del%20homenaje/1670418390707.jpg?raw=true" alt="bmw e36 negro">
+            <img id="image" src="https://github.com/jpuerta523/certficacion-diseno-web-fcc/blob/master/Pagina%20del%20homenaje/mye36.jpg?raw=true" alt="bmw e36 negro">
             <figcaption id="img-caption">bmw e36 325i</figcaption>
+        </div><br>
+
+        <!--Descripcion-->
+        <h2 id="descripcion">Descripción: BMW e36</h2>
+        <p id="tribute-info">El BMW es un sedán de tamaño medio fabricado por <a href="https://www.bmw.com.co/es/index.html" target="_blank" id="tribute-link">BMW</a> entre los años 1991 y 1999 en carrocerias coupe, convertible, sedan, ranchera (Touring) y hacthback (Compact). las motorizaciones disponibles en gasolina van desde un cuatro cilindros de 1.600cc hasta un seis en linea de 3.200cc para la última versión del M3 y en diesel desde 1.800cc hasta 2.500cc. El BMW e36 es la tercera generación de la mítica serie 3 reconocido mundialmente como uno de los mejores compactos ejecutivos de su tiempo por su excelente conducción deportiva, sus elegantes lineas y inconfundibles sonidos de motor en las versiones de 6 en linea.<br><br>
+        "El nuevo BMW E36 presentaba una marcada línea en cuña ascendente que rompía con el marcado paralelismo entre suelo, cintura y techo que había marcado el diseño de sus antecesores. Los paragolpes estaban integrados en la carrocería e incorporaban los faldones. Los proyectores anteriores estaban bajo una cubierta y los pilotos tenían un desarrollo cuadrado que delimitaba la tapa del maletero, que por primera vez en una berlina compacta del BMW llegaba hasta la altura de la defensa trasera, lo que facilitaba las operaciones de carga y descarga. En líneas generales el coche destacaba por la continuidad y fluidez de sus líneas que permitieron bajar el coeficiente aerodinámico hasta 0,29" (tomado de https://motorgiga.com/historia/modelos-de-coches/bmw-serie-3-historia-y-antecedentes-capitulo-4-bmw-e36/gmx-niv23-con1137.htm).
+        </p>
+
+        <h2 id="historia">Historia: Linea de tiempo</h2>
+        <ul>
+            <li>1981: Inicia el proceso de diseño liderado por  Pinky Lai and Boyke Boyer.</li>
+            <li>1990: Comienza la producción en las plantas de Alemania.</li>
+            <li>1991: Empiezan la comercialización con modelos 316i, 318i y 325i </li>
+            <li>1992: Se lanza al mercado el mitico M3</li>
+            <li>1993: El modelo hacthback mejor conocido como Comapt es lanzado al mercado</li>
+            <li>1996: Aparece el Z3 un modelo que usa la plataforma del e36 modificada.</li>
+            <li>1998: un modelo 320d gana las 24 horas de Nürburgring en su categoria.</li>
+            <li>1999: finaliza su producción para dar paso al BMW e46</li>
+        </ul>
+
+        <h2 id="imagenes">Galeria</h2>
+        <div class="galeria">
+            <div>
+                <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/bmw-m-party-web-dsc3591-2-1633454337.jpg" alt="bmw m3" class="imgGaleria">
+                <figcaption id="img-caption">bmw m3</figcaption>
+            </div>
+    
+            <div>
+                <img src="https://goodshoutmedia.files.wordpress.com/2018/03/goodshoutmedia-bmw-e36-m3-touring-estate_0008_layer-3.jpg" alt="bmw 328i touring" class="imgGaleria">
+                <figcaption id="img-caption">328i Touring</figcaption>
+            </div>
+
+            <div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdQ2uBOn_ZxUevvKHt9o12JH9MBBszio8Uow&usqp=CAU" alt="bmw 323 ti compact" class="imgGaleria">
+                <figcaption id="img-caption">bmw 323i Compact</figcaption>
+            </div>
+
+            <div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtWF9w50ZbJrRkzghz_Kzm2OAXPvpwE41EiQ&usqp=CAU" alt="bmw 325i sedan" class="imgGaleria">
+                <figcaption id="img-caption">bmw 325i sedan</figcaption>
+            </div>
+
+            <div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5Jt4ETHDLgrASNePgH46drKMT_zdlEpfHKQ&usqp=CAU" alt="bmw 328i cabrio" class="imgGaleria">
+                <figcaption id="img-caption">bmw 328i Cabrio</figcaption>
+            </div>
+
+            <div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6VxFQNRwD2bL7Nlzq0ln6NG8R1NlD_EmHUg&usqp=CAU" alt="e36 en nurburgring" 
+                class="imgGaleria">
+                <figcaption id="img-caption">bmw e36 en nurburgring</figcaption>
+            </div>
+            
+
         </div>
 
-        <p id="tribute-info">El BMW es un sedán de tamaño medio fabricado por <a href="https://www.bmw.com.co/es/index.html" target="_blank" id="tribute-link">BMW</a> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero cupiditate aliquid, exercitationem iure cum similique dolores atque praesentium ullam aut rem, reprehenderit corrupti eveniet autem tempora minima culpa eum pariatur.</p>
+        <br>
+        
+        <footer>
+            <p>Actividad 2: Certificación desarrollo Web Responsivo FreeCodeCamp</p>
+            <p>Mira mas proyectos de <a href="https://github.com/jpuerta523" target="_blank">Juan Pablo Puerta en Github</a></p>
+            <p>No Copyright © -- Diciembre 2022</p>
+            <p></p>
+        </footer>
 
     </main>
 </body>

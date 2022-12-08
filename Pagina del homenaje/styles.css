@@ -1,6 +1,163 @@
+/*estilos generales*/
+
+*{
+    font-family: Verdana,sans-serif;
+    line-height: 1.7;
+    box-sizing: border-box;
+}
+
+img{
+    border-radius: 3px;
+}
+
+figcaption{
+    margin-top: -4px
+}
+
+/*encabezado*/
+
+header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    font-size: 20px;
+    background-color: #fff;
+}
+
+.logo{
+    width: 70px;
+}
+
+nav{
+    padding-left: 50px ;
+    margin: -20px 0 10px 0;
+    justify-items: right;
+}
+nav a{
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav a:hover{
+    font-size: 17px;
+    border-bottom: 3px solid blue;
+}
+
+nav a:visited{
+    color: black;
+}
+
+/*estilo imagen principal*/
+
+#img-div{
+    background-color: #eee;
+    padding-top:20px;
+    margin: 0 -8px
+}
+
 #image{
-    max-width: 800px;
+    max-width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+#img-caption{
+    text-align: center;
+    font-size: 0.8em;
+}
+
+/*estilo cuerpo principal*/
+
+h2{
+    padding-left: 15px;
+}
+
+p,
+ul{
+    margin:  0 50px;
+    padding: 10px 50px;
+    background-color: #eee;
+}
+
+#image{
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*estilo galeria*/
+
+.galeria{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    background-color: #eee;
+    margin: 5px 10px;
+    padding: 10px
+    
+}
+.imgGaleria{
+    max-width: 400px;
+    height: 300px;
+    object-fit: cover;
+}
+
+/*pie de pagina*/
+footer{
+    margin: 1rem -8px -10px -65px;
+    padding-top: 3rem;
+    text-align: center;
+    background-color: #eee;
+}
+
+footer p{
+    font-weight: 200;
+    font-size: 15px;
+    margin: -15px 0 -15px 0;
+}
+
+/*medias querrys*/
+
+@media (max-width:740px){
+
+    *{
+        font-size: 14px;
+    }
+
+    h1{
+        font-size: 18px;
+    }
+
+    .logo{
+        width: 40px;
+    }
+
+    nav{
+        width: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    p,
+    ul{
+        margin:  0 -10px;
+        padding: 10px 30px;
+        background-color: #eee;
+    }
+
+    footer p{
+        font-size: 12px ;
+    }
+
 }

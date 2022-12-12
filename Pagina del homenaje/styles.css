@@ -1,9 +1,13 @@
 /*estilos generales*/
 
+html{
+    box-sizing: border-box;
+}
+
 *{
     font-family: Verdana,sans-serif;
     line-height: 1.7;
-    box-sizing: border-box;
+
 }
 
 img{
@@ -47,7 +51,7 @@ nav a:hover{
 }
 
 nav a:visited{
-    color: black;
+    color: blue;
 }
 
 /*estilo imagen principal*/

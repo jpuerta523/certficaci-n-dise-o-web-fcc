@@ -68,16 +68,19 @@ header{
     padding: 10px;
     margin: 0 auto;
     border-radius: 5px;
-    box-shadow: 10px 10px 5px #888;
+    box-shadow: 10px 0px 5px #888;
 }
 
 /*reglas pie de pagina*/
 footer{
     text-align: center;
     font-size: 0.9rem;
-    margin: -15px 0 -15px 0;
-    padding: -10px 0;
+    
 }
+
+ footer p{
+    margin-bottom: -10px;
+ }
 
 /* diseño responsivo */
 @media (max-width:768px) {

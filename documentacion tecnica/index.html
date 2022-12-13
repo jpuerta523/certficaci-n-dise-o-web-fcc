@@ -10,14 +10,14 @@ hace parte de evaluacion de FreeCodeCamp modulo de desarrollo web
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Operadores JS</title>
 </head>
 <body>
 
 <!-- barra de navegacion -->
    
     <nav id="navbar">
-        <header>Barra</header>
+        <header class="nav-title">Secciones</header>
             <a class="nav-link" href="#Operadores">Operadores</a>
             <a class="nav-link" href="#Suma">Suma</a>
             <a class="nav-link" href="#Resta">Resta</a>
@@ -36,9 +36,13 @@ hace parte de evaluacion de FreeCodeCamp modulo de desarrollo web
 
     <main id="main-doc">
 
+        <h1>Operaciones aritméticas en JavaScript</h1>
+        <p>JavaScript nos permite realizar todas las operaciones artiméticas posibles para toda clase de valores numéricos ya sean números enteros (number) o decimales (float), para poder ejecutar las operaciones en función de variables primero se deben declarar ya sean como let o como var.</p>
+
+
         <section class="main-section" id="Operadores">
             <header>Operadores</header>
-            <p>En JavaScript estan definidas las operaciones aritmeticas basicas:</p>
+            <p>En JavaScript están definidas las operaciones aritméticas básicas:</p>
             <ul>
                 <li>Suma</li>
                 <li>Resta</li>
@@ -56,140 +60,162 @@ hace parte de evaluacion de FreeCodeCamp modulo de desarrollo web
 
         <section class="main-section" id="Suma">
             <header>Suma</header>
-            <p>Se puede realizar la operación suma ode dos valores con el operador + , ejemplo:</p>
-            <code class="contenedor">
-                let a = 5;<br>
-                let b = 3;<br>
-                let suma = a + b;<br>
-                console.log(suma);<hr>
-                resultado en consola:<br>
-                5<br>
-            </code>
+            <p>Se puede realizar la operación suma de dos valores con el operador + , ejemplo:</p>
+            <div class="contenedor">
+                <code>
+                    let a = 5;<br>
+                    let b = 3;<br>
+                    let suma = a + b;<br>
+                    console.log(suma);<hr>
+                    resultado en consola:<br>
+                    5
+                </code>
+            </div>
         </section><br>
 
         <section class="main-section" id="Resta">
             <header>Resta</header>
             <p>Se puede realizar la operación resta de dos valores con el operador - , ejemplo:</p>
-            <code class="contenedor">
-                let a = 5;<br>
-                let b = 3;<br>
-                let resta = a - b;<br>
-                console.log(resta);<hr>
-                resultado en consola:<br>
-                2<br>
-            </code><br>
+            <div class="contenedor">
+                <code>
+                    let a = 5;<br>
+                    let b = 3;<br>
+                    let resta = a - b;<br>
+                    console.log(resta);<hr>
+                    resultado en consola:<br>
+                    2
+                </code>
+            </div>
         </section><br>
 
         <section class="main-section" id="Multiplicación">
             <header>Multiplicación</header>
             <p>Se puede realizar la operación multipicación de dos valores con el operador * , ejemplo:</p>
-            <code class="contenedor">
-                let a = 5;<br>
-                let b = 3;<br>
-                let producto = a * b;<br>
-                console.log(producto);<hr>
-                resultado en consola:<br>
-                15<br>
-            </code>
-        </section>
+            <div class="contenedor">
+                <code>
+                    let a = 5;<br>
+                    let b = 3;<br>
+                    let producto = a * b;<br>
+                    console.log(producto);<hr>
+                    resultado en consola:<br>
+                    15
+                </code>
+            </div>
+        </section><br>
 
         <section class="main-section" id="División">
             <header>División</header>
-            <p>Se puede realizar la operación dividión o cociente de dos valores con el operador  /, ejemplo:</p>
-            <code class="contenedor">
-                let a = 15;<br>
-                let b = 3;<br>
-                let cociente = a / b;<br>
-                console.log(cociente);<hr>
-                resultado en consola:<br>
-                5<br>
-            </code>
-        </section>
+            <p>Se puede realizar la operación división o cociente de dos valores con el operador  /, ejemplo:</p>
+            <div class="contenedor">
+                <code>
+                    let a = 15;<br>
+                    let b = 3;<br>
+                    let cociente = a / b;<br>
+                    console.log(cociente);<hr>
+                    resultado en consola:<br>
+                    5
+                </code>
+            </div>
+        </section><br>
 
         <section class="main-section" id="Resto">
             <header>Resto</header>
-            <p>Se puede realizar la operación resto de dos valores con el operador % , eta consite en avergiruar el valor entero resatante de una division de 2 valores ejemplo:</p>
-            <code class="contenedor">
-                let a = 5;<br>
-                let b = 4;<br>
-                let resto = a % b;<br>
-                console.log(resto);<hr>
-                resultado en consola:<br>
-                1<br>
-            </code>
-        </section>
+            <p>Se puede realizar la operación resto de dos valores con el operador % , esta consiste en avergiruar el valor entero restante de una division de 2 valores, ejemplo:</p>
+            <div class="contenedor">
+                <code>
+                    let a = 5;<br>
+                    let b = 4;<br>
+                    let resto = a % b;<br>
+                    console.log(resto);<hr>
+                    resultado en consola:<br>
+                    1
+                </code>
+            </div>
+        </section><br>
 
         <section class="main-section" id="Incremento_unitario">
             <header>Incremento unitario</header>
             <p>Se puede realizar de forma abreviada la operación adicción de una unidad a un valor con el operador ++, ejemplo:</p>
-            <code class="contenedor">
-                let a = 5;<br>
-                a++;<br>
-                console.log(a);<hr>
-                resultado en consola:<br>
-                6<br>
-            </code>
-        </section>
+            <div class="contenedor">
+                <code>
+                    let a = 5;<br>
+                    a++;<br>
+                    console.log(a);<hr>
+                    resultado en consola:<br>
+                    6
+                </code>
+            </div>
+        </section><br>
 
         <section class="main-section" id="Decremento_unitario">
             <header>Decremento unitario</header>
-            <p>Se puede realizar de forma abreviada la operación disminuición de una unidad a un valor con el operador --, ejemplo:</p>
-            <code class="contenedor">
-                let a = 5;<br>
-                 a--;<br>
-                console.log(a);<hr>
-                resultado en consola:<br>
-                4<br>
-            </code>
-        </section>
+            <p>Se puede realizar de forma abreviada la operación disminución de una unidad a un valor con el operador --, ejemplo:</p>
+            <div class="contenedor">
+                <code>
+                    let a = 5;<br>
+                     a--;<br>
+                    console.log(a);<hr>
+                    resultado en consola:<br>
+                    4
+                </code>
+            </div>
+        </section><br>
 
         <section class="main-section" id="Incremento_fijo">
             <header>Incremento fijo</header>
-            <p>Para incrementar una cantidad fija el valor de una variable de forma abrevida se utiliza el operardor +=, ejemplo:</p>
-            <code class="contenedor">
-                let a = 5;<br>
-                a += 5;<br>
-                console.log(a);<hr>
-                resultado en consola:<br>
-                10<br>
-            </code>
-        </section>
+            <p>Para incrementar una cantidad fija el valor de una variable de forma abreviada se utiliza el operardor +=, ejemplo:</p>
+            <div class="contenedor">
+                <code>
+                    let a = 5;<br>
+                    a += 5;<br>
+                    console.log(a);<hr>
+                    resultado en consola:<br>
+                    10
+                </code>
+            </div>
+        </section><br>
 
         <section class="main-section" id="Decremento_fijo">
             <header>Decremento fijo</header>
-            <p>Para disminuir una cantidad fija el valor de una variable de forma abrevida se utiliza el operardor -=, ejemplo:</p>
-            <code class="contenedor">
-                let a = 5;<br>
-                a -= 5;<br>
-                console.log(a);<hr>
-                resultado en consola:<br>
-                0<br>
-            </code>
-        </section>
+            <p>Para disminuir una cantidad fija el valor de una variable de forma abrevaida se utiliza el operardor -=, ejemplo:</p>
+            <div class="contenedor">
+                <code>
+                    let a = 5;<br>
+                    a -= 5;<br>
+                    console.log(a);<hr>
+                    resultado en consola:<br>
+                    0
+                </code>
+            </div>
+        </section><br>
 
         <section class="main-section" id="Multiplicación_fija">
             <header>Multiplicación fija</header>
-            <p>Para multiplicar por una cantidad fija el valor de una variable de forma abrevida se utiliza el operardor x=, ejemplo:</p>
-            <code class="contenedor">
-                let a = 5;<br>
-                a *= 5;<br>
-                console.log(a);<hr>
-                resultado en consola:<br>
-                25<br>
-            </code>
-        </section>
+            <p>Para multiplicar por una cantidad fija el valor de una variable de forma abreviada se utiliza el operardor x=, ejemplo:</p>
+            <div class="contenedor">
+                <code>
+                    let a = 5;<br>
+                    a *= 5;<br>
+                    console.log(a);<hr>
+                    resultado en consola:<br>
+                    25
+                </code>
+            </div>
+        </section><br>
 
         <section class="main-section" id="División_fija">
             <header>División fija</header>
-            <p>Para dividir por una cantidad fija el valor de una variable de forma abrevida se utiliza el operardor /=, ejemplo:</p>
-            <code class="contenedor">
-                let a = 10;<br>
-                a /= 5;<br>
-                console.log(suma);<hr>
-                resultado en consola:<br>
-                2<br>
-            </code>
-        </section>
+            <p>Para dividir por una cantidad fija el valor de una variable de forma abreviada se utiliza el operardor /=, ejemplo:</p>
+            <div class="contenedor">
+                <code>
+                    let a = 10;<br>
+                    a /= 5;<br>
+                    console.log(suma);<hr>
+                    resultado en consola:<br>
+                    2
+                </code>
+            </div>
+        </section><br>
 <!-- barra de navegacion -->
         
     </main>

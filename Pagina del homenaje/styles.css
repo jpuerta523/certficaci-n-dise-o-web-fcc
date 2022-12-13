@@ -38,8 +38,8 @@ header{
 nav{
     padding-left: 50px ;
     margin: -20px 0 10px 0;
-    justify-items: right;
 }
+
 nav a{
     text-decoration: none;
     margin-right: 10px;

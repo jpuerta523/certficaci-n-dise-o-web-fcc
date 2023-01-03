@@ -84,10 +84,12 @@ hr{
 }
 
 /*estilos habilidades*/
+
 #skill{
     background: white;
     height: 100vh;
     padding: 7vh 5vw 5vh 5vw;
+    margin-top: 100px;
 }
 .skill-logo{
     font-size: 2rem;
@@ -176,6 +178,15 @@ hr{
 #projects{
     padding-top: 2vh;
     padding: 7vh 5vw 5vh 5vw;
+    margin: 100px -50px 0 -50px;
+    background: url("https://images.pexels.com/photos/2824173/pexels-photo-2824173.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") ;
+    background-position: center;
+    background-attachment:fixed;
+    background-size:cover;
+}
+
+.project-tile{
+    text-align: center;
 }
 
 .project-container{
@@ -183,10 +194,11 @@ hr{
     display: flex;
     flex-wrap: wrap;
     align-content: space-around;
+    margin-top: 50px;
+    margin: 100px 50px;
 }
 
-.project-photo
-{
+.project-photo{
     display: block;
     max-width: 300px;
     
@@ -205,20 +217,51 @@ hr{
 
 .container:hover{
     scale: 110%;
-    background-color: #8e8c73;
+    background-color: #B2B2B2;
+    color:white;
 }
 
-.container a:activate{
+
+.container a:visited{
     color: black
 }
 
 /*estilos pie de pagina*/
+
 footer{
-    background: plum;
+    background-color: #2C272E;
+    color: #fff;
+    text-align: center;
+    width: 100vw;
+    padding: 1rem 0;
+    margin:  0 -20px;
+
+}
+
+footer p{
+    font-weight: 300;
+    font-size: 1rem;
+    margin: 0.2rem;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer a:visited{
+    color: #ddd;
+    
 }
 
 
 /* diseño responsivo */
+
+@media (max-width:1050px) { 
+    .project-container{
+        height: 150vh;
+    }
+}
+
 @media (max-width:600px) { 
     
     #navbar{
@@ -274,5 +317,10 @@ footer{
 
     h2{
         font-size: 1.5rem;
+    }
+
+    .project-container{
+        margin-top:100px;
+        height: 220vh;
     }
 }

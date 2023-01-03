@@ -1,0 +1,215 @@
+<!--
+Portafolio Personal
+HTML y CSS puro sin frameworks o librerias
+hace parte de evaluacion de FreeCodeCamp modulo de desarrollo web
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/997cfa1cd5.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Portafolio</title>
+</head>
+<body>
+
+    <!-- encabezado y barra de navegacion -->
+    <header>
+        <nav id="navbar">
+            <a class="nav-link" href="#welcome-section"> <i class="fa-solid fa-play"></i></i> Inicio</a>
+            <a class="nav-link" href="#about"> <i class="fa-solid fa-person"></i> Sobre Mí</a>
+            <a class="nav-link" href="#skill"> <i class="fa-solid fa-book"></i> Habilidades</a>
+            <a class="nav-link" href="#projects"><i class="fa-solid fa-laptop-code"></i> Mis Proyectos</a>
+        </nav>
+    </header>
+
+    <!-- seccion de bienvenida -->
+    <section id="welcome-section">
+        <div class="welcome-text">
+            <h1>hola, soy Juan Pablo</h1><br>
+            <p class="dev">Desarrollador Web</p>
+        </div>
+
+    </section>
+
+    <!-- seccion sobre mi -->
+    <section id="about">
+        <h2>Sobre mí</h2>
+        <hr>
+        <p>
+            Hola, me llamo Juan Pablo y soy un Desarrollador Web con experiencia en el Front End. Autodidacta y de mente curiosa, siempre estoy en la búsqueda de nuevos conocimientos y retos en los que pueda aplicarlos.<br><br>
+            Ingeniero Mecánico por formación, Desarrollador Web por convicción.  Siempre busco la respuesta más elegante, eficiente y escalable posible  a las necesidades del cliente.  
+  
+            
+        </p>
+
+    </section>
+
+    <!-- seccion habilidades -->
+    <section id="skill">
+        <h2>Habilidades</h2>
+
+        <h3>Habilidades técnicas:</h3>
+
+        <!-- nivel html -->
+        <div class="skill-contenedor">
+        <div class="level">
+            <div class="logo">
+                <i class="icon fa-brands fa-html5 skill-logo html"></i>
+            </div>
+            <div>
+                <p>novato</p>
+            </div>
+            <div class="expert"></div>
+            <div class="expert-label">
+                <p>Experto</p>
+            </div>
+        </div><br>
+
+        <!-- nivel css -->
+        <div class="level">
+            <div class="logo">
+                <i class="fa-brands fa-css3-alt skill-logo css"></i>
+            </div>
+            <div>
+                <p>novato</p>
+            </div>
+            <div class="semi-expert"></div>
+            <div class="expert-label">
+                <p>Experto</p>
+            </div>
+        </div><br>
+
+        <!-- nivel JS -->
+        <div class="level">
+            <div class="logo">
+                <i class="fa-brands fa-square-js skill-logo js"></i>
+            </div>
+            <div class="novice-label">
+                <p>novato</p>
+            </div>
+            <div class="mid"></div>
+            <div class="expert-label">
+                <p>Experto</p>
+            </div>
+        </div><br>
+
+        <!-- nivel react -->
+        <div class="level">
+            <div class="logo">
+                <i class="fa-brands fa-react skill-logo react"></i>
+            </div>
+            <div>
+                <p>novato</p>
+            </div>
+            <div class="novice"></div>
+            <div class="expert-label">
+                <p>Experto</p>
+            </div>
+        </div><br>
+
+        <!-- nivel wordpress -->
+        <div class="level">
+            <div class="logo">
+                <i class="fa-brands fa-wordpress skill-logo css"></i>
+            </div>
+            <div>
+                <p>novato</p>
+            </div>
+            <div class="novice"></div>
+            <div class="expert-label">
+                <p>Experto</p>
+            </div>
+        </div>
+    </div><br>
+
+    <h3>Otros Estudios:</h3>
+   <div class="anothers">
+    <div>
+        Ingeniero Mecánico<br>
+        Universidad Pontificia Bolivariana
+    </div><br>
+
+    <div>
+        MBA Business Administration<br>
+        Universidad Luis Amigó
+    </div><br>
+
+    <div>
+        Inglés<br>
+        nivel: B2
+    </div><br>
+   </div>
+
+    </section>
+
+    <!-- seccion proyectos -->
+    <section id="projects">
+        <h2 class="project-tile">Proyectos</h2>
+        <div class="project-container">
+            <div class="calculadora container">
+                <a href="https://github.com/jpuerta523/calculadora" target="_blank">
+                    <img class="project-photo" src="calculadora.png">
+                    <p>Calculadora con React</p>
+                </a>
+                
+            </div>
+    
+            <div class="landing container">
+                <a href="https://github.com/jpuerta523/certficacion-diseno-web-fcc/tree/master/landing%20page" target="_blank">
+                    <img class="project-photo" src="landing.png">
+                    <p>Landing Page: Compumundo</p>
+                </a>
+                
+            </div>
+    
+            <div class="diccionario container">
+                <a href="https://github.com/jpuerta523/Manual-programacion" target="_blank">
+                    <img class="project-photo" src="diccionario.png">
+                    <p>Diccionario de programación</p>
+                </a>
+            </div>
+    
+            <div class="homenaje container">
+                <a href="https://github.com/jpuerta523/certficacion-diseno-web-fcc/tree/master/Pagina%20del%20homenaje" target="_blank">
+                    <img class="project-photo" src="homenaje.png">
+                    <p>Página del homenaje: e36 Fan Page</p>
+                </a>
+                
+            </div>
+    
+            <div class="documentacion container">
+                <a href="https://github.com/jpuerta523/certficacion-diseno-web-fcc/tree/master/documentacion%20tecnica" target="_blank">
+                    <img class="project-photo" src="documentacion.png">
+                    <p>documentación técnica: operadores JS</p>
+                </a>
+            </div>
+    
+            <div class="encuesta container">
+                <a href="https://github.com/jpuerta523/certficacion-diseno-web-fcc/tree/master/encuesta" target="_blank" id="profile-link">
+                    <img class="project-photo" src="encuesta.png">
+                    <p>Encuesta Satisfacción Profix</p>
+                </a>
+                
+            </div>
+    
+        </div>
+
+        
+    </section>
+
+    <!-- pie de pagina -->
+    <footer>
+        <p>Actividad 5: Certificación desarrollo Web Responsivo FreeCodeCamp</p>
+        <p>Mira mas proyectos de Juan Pablo Puerta en <a href="https://github.com/jpuerta523" target="_blank"><i class="fa-brands fa-github"></i></a> y en <a href="https://www.linkedin.com/in/juan-pablo-puerta-gallego-8622378a/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></p>
+        <p>No Copyright © -- Diciembre 2022</p>
+        <p></p>
+    </footer>
+
+
+</body>
+</html>
